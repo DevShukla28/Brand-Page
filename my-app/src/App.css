@@ -1,0 +1,97 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: o;
+}
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+nav {
+  display: flex;
+  margin-right: 10%;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.logo img {
+  margin-left: 133px;
+ 
+  width: 45%;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 27px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+button {
+  background: var(--red);
+  color: white;
+  padding: 5px;
+  height: 38px;
+  width: 81px;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero {
+  margin: 5px auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh-72px);
+}
+.hero-content p {
+  width: 50%;
+  margin: 5px;
+  padding: 4px;
+  font-family: cursive;
+}
+.hero-content h1 {
+ margin-top: 25px;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 102px;
+  
+}
+.hero-btn{
+  display: flex;
+  gap: 8px;
+}
+
+.brand-icon{
+  gap: 16px;
+  display: flex;
+  margin-top: 6px;
+ 
+}
+.shopping{
+   font-weight: 600;
+}
+.hero-image{
+    background: url('https://media.istockphoto.com/id/1017505478/photo/abstract-multicolored-powder-explosion-on-white-background-freeze-motion-of-color-dust.jpg?s=612x612&w=0&k=20&c=jpRunmvzK-hsHesm0zhSdWyJ2uOpVmsdv-S800whKZc=');
+    background-position: center;
+    
+}
+.secondary-btn{
+  background: transparent;
+  border: none;
+    color: var(--gray);
+    border: 3px solid gray;
+}
